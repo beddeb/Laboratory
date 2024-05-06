@@ -37,8 +37,6 @@ public:
                 return false;
         return true;
     }
-
-
 };
 
 template<typename T>
@@ -82,8 +80,6 @@ public:
     ~ArraySequence();
 
     ArraySequence<Type> *DeleteIndex(int index);
-
-
 };
 
 template<typename Type>
@@ -134,7 +130,6 @@ public:
     ListSequence<Type> *DeleteIndex(int index) {
         return Inctance()->DeleteIndexInctance(index);
     }
-
     ~ListSequence();
 
 protected:
@@ -153,7 +148,6 @@ protected:
     ListSequence<Type> *DeleteIndexInctance(int index);
 
     virtual ListSequence<Type> *Clone() = 0;
-
 };
 
 template<typename Type>
