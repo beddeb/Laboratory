@@ -21,9 +21,8 @@ class DynamicArray {
     Type *arr{NULL};
     size_t size{0};
     size_t capacity{0};
-
-
 };
+
 template<typename Type>
 class LinkedList 
 {
@@ -62,7 +61,6 @@ class LinkedList
     Node* head{0};
     Node* tail{0}; 
     size_t size{0};
-
 };
 
 
